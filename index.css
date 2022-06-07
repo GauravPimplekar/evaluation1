@@ -1,0 +1,42 @@
+/* Fill CSS here */
+
+h1{
+    text-align: center;
+    color: rgb(18, 111, 233);
+    text-decoration: underline;
+}
+
+h1 + div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+tr > th{
+    background-color: rgb(18, 111, 233);
+    color: white;
+}
+
+
+
+table{
+    
+    height: fit-content;
+    text-align: center;
+}
+
+form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+input,select{
+    margin-bottom: 10px;
+    width: 100%;
+}
+#mbl ~ input{
+    background-color: rgb(18, 111, 233);
+    border: 0;
+    border-radius:  10px;
+    color: white;
+}
+
